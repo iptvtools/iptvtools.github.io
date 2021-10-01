@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="shortcut icon" href="https://iptvextreme.eu/favicon.png"><title>
+	IPTV Extreme Playlists Portal
+</title>
+
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+
+<body style="margin-left: auto; margin-right: auto; padding: 10px; background-color: black; width: 100%;">
+
+	<script>
+	function getQueryVariable(variable)
+	{
+		   var query = window.location.search.substring(1);
+		   var vars = query.split("&");
+		   for (var i=0;i<vars.length;i++) {
+				   var pair = vars[i].split("=");
+				   if(pair[0] == variable){return pair[1];}
+		   }
+		   return(false);
+	}
+	</script>
+
+	<form name="form1" method="post" action="https://iptvextreme.eu/" id="form1" enctype="multipart/form-data">
+
+	<div>
+		<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+		<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+		<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+		<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTIwOTI0MDYwNjIPZBYCAgMPFgIeB2VuY3R5cGUFE211bHRpcGFydC9mb3JtLWRhdGEWKAIbDw8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQICZGQCHQ8PFgIfAQICFgIeBHR5cGUFCHBhc3N3b3JkZAIjDw8WAh8BAgJkZAJDDw8WAh8BAgJkZAJFDw8WAh8BAgJkZAJHDw8WAh8BAgJkZAJJDw8WAh8BAgJkZAJlDw8WAh8BAgJkZAJnDw8WAh8BAgJkZAJpDw8WAh8BAgIWAh8CBQhwYXNzd29yZGQCdQ9kFgICDw8PFgIfAQICFgIfAgUIcGFzc3dvcmRkAnkPZBYCAg8PDxYCHwECAhYCHwIFCHBhc3N3b3JkZAJ9D2QWCAIPDxBkZBYBZmQCGQ8PFgYeB0VuYWJsZWRoHglCYWNrQ29sb3IKTh4EXyFTQgIIZGQCGw8PFggfA2gfBApOHwECAh8FAghkZAIdDw8WAh8BAgJkZAKRAQ8PFgIfAQICZGQCkwEPDxYCHwECAhYCHwIFCHBhc3N3b3JkZAKvAQ8PFgIfAQICZGQCsQEPDxYCHwECAhYCHwIFCHBhc3N3b3JkZAK9AQ9kFgICAw8PFgIfAQIBZGQCvwEPFgIeB1Zpc2libGVoZALBAQ8WAh8GaGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgcFCWFkZEJ1dHRvbgUHQ2hrSGlkZQUNY2hrWHRyZWFtSGlkZQUJY2hrSGllTWFnBQxDaGtFbmFibGVWUE4FCmNoa1ZwbkxvY2sFDENoa0VwZ0FjdGl2ZfMj/ZwGBGq3gpFULUiFxSSpDDa6AA7x3Teg69t/fVXY">
+	</div>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	var theForm = document.forms['form1'];
+	if (!theForm) {
+		theForm = document.form1;
+	}
+	function __doPostBack(eventTarget, eventArgument) {
+		if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+			theForm.__EVENTTARGET.value = eventTarget;
+			theForm.__EVENTARGUMENT.value = eventArgument;
+			theForm.submit();
+		}
+	}
+	//]]>
+	</script>
+
+
+	<div>
+		<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F80457EB">
+		<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAELObIveURG90nguIjDzo0zqlV40FYNjn0L2VcBqR1Sg2L6qUJL9hSZQnd+ujQL8/LlAUFP2OvxipXN5OJOlwRwfacCy9msVy6CIrgaw/cPO9dB7u0Tibzfof1uXgQh/T2/CCU/KUUxEnduuhXPNl8ySAh6741Lw9Taxtzpvuz6RVs34O/GfAV4V4n0wgFZHr3fLRaglUgrBOrBnLgYAZatRq5Xs6Ze/IlOQ8gMEi6kb2LYdd65Y/t21smNfVOjW59kP2166tkzdqLOZJ5lcgIF4GbNxxi/A4a8DGjEI4HNqtN5yETmMHUkQPgxkVGHFXpv8ninMKqFfihM+AMIHIS43HXHdXTiURrxOETkvaSrrZkeHGa06WEWw/GAWBFnQ/vC245R3RjgR+//Z7AjfmuiqO2PmBKwmMJ+OxVMdDzThHa5J1InOA/9k8wHHGkeXiNgXlEVvu48PDOY3K5/rJRgpjTxgMSTUIo+vcK3KP9YRYcHTZQQff5vtXRpskgtcUNAMi2akPCkVypJRmGhnPPJTrXh5Kh976VCDfeuAIhTYbeXLpVOeNMxchmoMFRp3WMbzjnEn49JZe7ovUTXtZ0kke6KW6OblMDErvCGDnws+qs2uWFtJi7zwmonkZc6AT3npj5yvW0rABCOyhefQbcr4sMSUBSYGauQ9KgMp9hjBoVM0mTpUnCANbPfjWdSXCr1tGiVWtWHVwUzjpGKUeTrjXATN2/tBkRI0L1ZMHbYteA7v+sX33tJgyOYQrYK1R7CXf2gnSqZNL1HRe470VNGf3VZLPnhMigxsgQ0P7a7O/Ba+jmDMUDxCWPVTTlOg6lsUjYN7AhU1F8xg68KCKPQVspzyL+yccKHCmVUBnHakCoCPKTGlmv8QHy0tzO6USHVK/RC123goS8qs8nQ0TfUqqWC2DQkZIOI/RoU8vY5HNNKLLLSeFJPuuUk+yepZb+XNqpsPtXeVhFArGfxiWvhBAkK7xEhY7G5kg8R6wr2913U+QZwu9cJKhTYenmkVo0LDW6NrC+XMiBUCCiMW0Wr0EYa7qSxImbVZi8TU7G8wJiSfLeaxNifyEO1loI8qA/aLC/qPTKPTDbgqbKBSWAIctXct/5tbP/jMpQP71hKB4Nettv1Ce9BhYTE8/Ct+0mg8mrHq047V1vhTveO+CZIt4Oe2KST42DptgP4cUtP4TtaV7PVg6mu9ld3P8tn/0yNbHnpAWeoBRZOVaGT2zhFG+frD/fiMSKh5ijIZnwiAVvQIvM53LUc4VIkvj3vQyO3qUpQpflKp8xKELIY3AOrVug25jiS4depX6GeeLb/ZRUMenZ9qeMCW51pay0837IMiQGIJqFOIMy0Wr6txvRnN/KRj87gG09WyIcbhhCcMY137/fCzo+9Zuitcc5srxHjA0ffvdOQSaM13abbIMf0gurvNRtECNFo1kujhIxxsWw==">
+	</div>
+
+	<script type="text/javascript">
+		//<![CDATA[
+		Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', [], [], [], 90, '');
+		//]]>
+	</script>
+	
+	<!-- ADD PLAYLIST SECOTION -->
+	<div id="TABELLA" style="display: none; margin-left: auto; margin-right: auto; padding: 10px; border: medium groove #000000; background-color: ghostwhite; width: 880px">
+
+		<table>
+			<tr style="padding: 0px 5px 0px 5px">
+				<td>
+					<input name="TxtMacAddress" type="text" maxlength="17" id="TxtMacAddress" placeholder="Ex. 01:02:AA:BB:CC:00" style="border-style:Solid;font-size:Medium;width:180px;" />
+				</td>
+				<td>
+					<input name="TxtName" type="text" maxlength="50" id="TxtName" title="Select a Name for the Playlist Ex. &quot;Live&quot;, or &quot;VOD&quot;" style="border-style:Solid;font-size:Medium;width:150px;" />
+				</td>
+				<td class="auto-style4">
+					<input name="TxtLink" type="text" maxlength="200" id="TxtLink" title="Insert the playlist link ex. http://myserver.com:8000.." style="border-style:Solid;font-size:Medium;width:340px;" />
+				</td>
+				</tr>
+
+		</table>
+
+		<!-- PULSANTI -->
+		<table style="table-layout: auto; empty-cells: hide; width: 880px; border-spacing: inherit">
+			<tr>
+				<td class="auto-style4 padding: 20px 5px 0px 5px" >
+					<input type="button" name="CmdSave" value="Save" onclick="this.disabled=&#39;true&#39;;__doPostBack(&#39;CmdSave&#39;,&#39;&#39;)" id="CmdSave" style="width:100px;margin-top: 10px" />
+				</td>
+			</tr>
+		</table>
+
+	</div>	
+	<!-- ADD PLAYLIST SECOTION END -->
+
+	<!-- MAG SECTION -->
+	<div id="TABELLAMAG" style="display: none; margin-left: auto; margin-right: auto; padding: 10px; border: medium groove #000000; background-color: ghostwhite; width: 880px">
+		<table class="auto-style5">
+			<tbody>
+				<tr style="padding: 0px 5px 0px 5px">
+					<td>
+						<input type="hidden" name="txtMagDestMac" type="text" maxlength="17" id="txtMagDestMac" placeholder="Ex. 01:02:AA:BB:CC:00" style="border-style:Solid;font-size:Medium;width:180px;">
+					</td>
+					<td class="auto-style8">
+						<input type="hidden" name="txtMagName" type="text" maxlength="50" id="txtMagName" title="Select a Name for the Playlist Ex. &quot;Live&quot;, or &quot;VOD&quot;" style="border-style:Solid;font-size:Medium;width:150px;">
+					</td>
+
+				</tr>
+
+				<tr>
+					<td class="auto-style8">
+						<input type="hidden" name="txtMagPortal" type="text" maxlength="200" id="txtMagPortal" title="Portal link Ex. http://myserver.com:8000" style="border-style:Solid;font-size:Medium;width:180px;">
+					</td>
+					<td class="auto-style8">
+						<input type="hidden" name="txtMagMac" type="text" maxlength="17" id="txtMagMac" title="MAC of the Mag Device to impersonate" class="auto-style6" style="border-style:Solid;font-size:Medium;width:150px;">
+					</td>
+					<td class="auto-style8">
+						<input type="hidden" name="txtMagProtPassword" maxlength="16" id="txtMagProtPassword" title="Password (If application is protected)" type="password" style="border-style:Solid;font-size:Medium;width:187px;">
+					</td>
+					<td style="padding: 0px 0px 0px 20px">
+						<input type="hidden" type="button" name="cmdSaveMag" value="Save" onclick="this.disabled=&#39;true&#39;;__doPostBack(&#39;cmdSaveMag&#39;,&#39;&#39;)" id="cmdSaveMag" style="width:100px;">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	<!-- MAG SECTION END-->
+
+	<script type="text/JavaScript">
+	var macIE = getQueryVariable('macIE');
+	document.getElementById('txtMagDestMac').value=macIE;
+
+	var nlista = getQueryVariable('nlista');
+	document.getElementById('txtMagName').value=nlista;
+
+	var servidor = getQueryVariable('servidor');
+	document.getElementById('txtMagPortal').value=servidor;
+
+	var mac = getQueryVariable('mac');
+	document.getElementById('txtMagMac').value=mac;
+	
+	document.getElementById('TxtMacAddress').value = macIE;
+	document.getElementById('TxtName').value = nlista;
+	
+	var lista = getQueryVariable('lista');
+	document.getElementById('TxtLink').value = lista;
+	
+	</script>
+
+	<script>
+	if (lista != ""){
+		var el = document.getElementById('TABELLAMAG');
+		el.remove();	
+		$('#CmdSave').trigger('click');	
+	}else{
+		var el = document.getElementById('TABELLA');
+		el.remove();	
+		$('#cmdSaveMag').trigger('click');
+	}
+	</script>
+
+</body>
+
+</html>
